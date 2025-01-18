@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 
+// Header component
 function Header() {
   return (
     <header id="header">

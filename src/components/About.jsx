@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./About.css";
 
+// About component
 function About() {
 
   return (
+    // About section
     <div className="about">
       <h2>About</h2>
       <p>Welcome to E-Cart—where shopping meets simplicity and your cart never complains about being too full. 

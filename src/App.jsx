@@ -7,9 +7,12 @@ import Cart from "./components/Cart";
 import Footer from "./components/Footer";
 import products from "./data/products";
 
+
+// App component
 function App() {
   const [cartItems, setCartItems] = useState([]);
 
+  // Add to cart function
   function handleAddToCart(product) {
     setCartItems((prevCart) => {
       const item = prevCart.find((item) => item.id === product.id);
@@ -21,6 +24,8 @@ function App() {
       return [...prevCart, { ...product, quantity: 1 }];
     });
   };
+
+  // Increase to cart functions
   function handleonIncrease(id) {
     setCartItems((prevCart) =>
       prevCart.map((item) =>
@@ -28,6 +33,8 @@ function App() {
       )
     );
   };
+
+  // Decrease from cart functions
   function handleonDecrease(id) {
     setCartItems((prevCart) =>
       prevCart
@@ -37,6 +44,8 @@ function App() {
         .filter((item) => item.quantity > 0)
     );
   };
+
+  // Remove from cart functions
   function handleonRemove(id) {
     setCartItems((prevCart) => prevCart.filter((item) => item.id !== id));
   };

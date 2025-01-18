@@ -1,4 +1,6 @@
 import React from 'react';
+
+//navbar component from react-icons
 import { FaHome} from "react-icons/fa";
 import { FcAbout } from "react-icons/fc";
 import { AiFillMessage } from "react-icons/ai";
@@ -6,6 +8,7 @@ import { AiFillProduct } from "react-icons/ai";
 import { MdOutlineShoppingCartCheckout } from "react-icons/md";
 import './Navbar.css';
 
+// Navbar component
 function NavBar() {
   return (
     <nav id="navbar">
