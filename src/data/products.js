@@ -1,0 +1,28 @@
+const products = [
+    { "id": 1, "name": "T-Shirt", "quantity": 180, "price": 20 },
+    { "id": 2, "name": "Jeans", "quantity": 180, "price": 40 },
+    { "id": 3, "name": "Sneakers", "quantity": 180, "price": 60 },
+    { "id": 4, "name": "Hat", "quantity": 180, "price": 15 },
+    { "id": 5, "name": "Socks", "quantity": 180, "price": 5 },
+    { "id": 6, "name": "Hoodie", "quantity": 180, "price": 35 },
+    { "id": 7, "name": "Jacket", "quantity": 180, "price": 50 },
+    { "id": 8, "name": "Scarf", "quantity": 180, "price": 12 },
+    { "id": 9, "name": "Gloves", "quantity": 180, "price": 10 },
+    { "id": 10, "name": "Backpack", "quantity": 180, "price": 45 },
+    { "id": 11, "name": "Belt", "quantity": 180, "price": 18 },
+    { "id": 12, "name": "Watch", "quantity": 180, "price": 150 },
+    { "id": 13, "name": "Sunglasses", "quantity": 180, "price": 80 },
+    { "id": 14, "name": "Tie", "quantity": 180, "price": 20 },
+    { "id": 15, "name": "Wallet", "quantity": 180, "price": 25 },
+    { "id": 16, "name": "Beanie", "quantity": 180, "price": 15 },
+    { "id": 17, "name": "Bracelet", "quantity": 180, "price": 30 },
+    { "id": 18, "name": "Earrings", "quantity": 180, "price": 40 },
+    { "id": 19, "name": "Necklace", "quantity": 180, "price": 60 },
+    { "id": 20, "name": "Ring", "quantity": 180, "price": 50 },
+    { "id": 21, "name": "Sweater", "quantity": 180, "price": 45 },
+    { "id": 22, "name": "Polo Shirt", "quantity": 180, "price": 25 },
+    { "id": 23, "name": "Shorts", "quantity": 180, "price": 30 },
+    { "id": 24, "name": "Sandals", "quantity": 180, "price": 20 },
+  ];
+
+  export default products;

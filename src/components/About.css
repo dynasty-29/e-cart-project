@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Amatic+SC:wght@400;700&family=Bungee+Spice&family=Carter+One&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Mina:wght@400;700&family=Nabla:EDPT,EHLT@99,4&family=Nosifer&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Racing+Sans+One&family=Rationale&family=Zen+Dots&display=swap');
+.about {
+    padding: 20px;
+    margin-top: 60px;
+    background-color: rgb(42, 2, 37);
+    font-family: "Mina", serif;
+    font-weight: 70;
+    font-stretch: extra-expanded;
+}
